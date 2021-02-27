@@ -28,4 +28,8 @@
   .container section > div:first-child {
     margin-top: 5rem;
   }
+
+  .container section > div:last-child {
+    margin-bottom: 2rem;
+  }
 }
