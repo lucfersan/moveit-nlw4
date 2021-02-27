@@ -99,3 +99,21 @@
 .challengeActive footer button:hover {
   filter: brightness(0.9);
 }
+
+@media (max-width: 680px) {
+  .challengeBoxContainer {
+    height: 500px;
+  }
+
+  .challengeActive footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1080px) {
+  .challengeActive main p {
+    max-width: 300px;
+  }
+}

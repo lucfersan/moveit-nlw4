@@ -41,7 +41,7 @@
   margin-top: 5rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   border: 0;
   border-radius: 5px;
   background: var(--blue);
@@ -51,8 +51,8 @@
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.countdownButton > img {
-  margin-left: -8rem;
+.countdownButton img {
+  margin-left: 1rem;
 }
 
 .countdownButton:not(:disabled):hover {
