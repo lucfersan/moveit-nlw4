@@ -73,7 +73,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Lucas Fernandes - fernandes.lucas11@outlook.com
 
-Project Link: [https://github.com/lucfersan/moveit-nlw4](https://github.com/lucfersan/moveit-nlw4)
+Project Link: [https://moveit-next-lucas.vercel.app/](https://moveit-next-lucas.vercel.app/)
 
 ### 😄 Special thanks to
 
