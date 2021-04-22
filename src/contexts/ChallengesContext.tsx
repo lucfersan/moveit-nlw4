@@ -57,9 +57,15 @@ export function ChallengesProvider({ children, ...rest }: ChallengeProps) {
   }, []);
 
   useEffect(() => {
-    Cookies.set('level', String(level));
-    Cookies.set('currentExperience', String(currentExperience));
-    Cookies.set('challengesCompleted', String(challengesCompleted));
+    Cookies.set('level', String(level), {
+      expires: 31536000,
+    });
+    Cookies.set('currentExperience', String(currentExperience), {
+      expires: 31536000,
+    });
+    Cookies.set('challengesCompleted', String(challengesCompleted), {
+      expires: 31536000,
+    });
   }, [level, currentExperience, challengesCompleted]);
 
   const levelUp = useCallback(() => {
